@@ -13,7 +13,7 @@
 
 // typeof 用在头文件，需要用__typeof__
 #define MCHECK(ret) ({__typeof__(ret)  errnum = (ret); \
-                        assert(errno==0); \
+                        assert(errnum==0); \
                         (void)errnum; \
                     })
 
