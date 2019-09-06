@@ -35,7 +35,7 @@ namespace yiheng
     private:
         MutexLock& mutex_;
         pthread_cond_t cond_;
-    }
+    };
 } // namespace yiheng
 
 #endif

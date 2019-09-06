@@ -1,6 +1,4 @@
 set(base_SRCS
-        CurrentThread.cc
-        Exception.cc
         Timestamp.cc
         )
 

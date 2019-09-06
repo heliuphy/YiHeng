@@ -4,7 +4,7 @@
 #ifndef YIHENG_ATOMIC_H
 #define YIHENG_ATOMIC_H
 
-#include "yiheng/base/noncopyable.h"
+#include "noncopyable.h"
 
 #include <stdint.h>
 
