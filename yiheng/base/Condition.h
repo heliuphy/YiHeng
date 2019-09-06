@@ -1,3 +1,10 @@
+//
+// Author: He Liu (heliu.cpp@gmail.com)
+
+#ifndef YIHENG_CONDITION_H
+#define YIHENG_CONDITION_H
+
+
 #include <pthread.h>
 #include "Mutex.h"
 
@@ -30,3 +37,5 @@ namespace yiheng
         pthread_cond_t cond_;
     }
 } // namespace yiheng
+
+#endif
